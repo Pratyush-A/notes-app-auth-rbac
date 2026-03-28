@@ -178,9 +178,7 @@ https://notes-app-auth-rbac.vercel.app
 
 ---
 
-## 📸 Screenshots (Optional)
 
-*Add screenshots of login, signup, dashboards here*
 
 ---
 
