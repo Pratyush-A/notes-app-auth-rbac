@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:3000/api/v1",
+  baseURL: "https://notes-app-auth-rbac.onrender.com/api/v1",
   withCredentials: true
 });
 

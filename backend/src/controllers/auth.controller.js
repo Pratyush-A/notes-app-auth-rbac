@@ -46,8 +46,8 @@ async function registerUser(req, res) {
     
     res.cookie("token", token, {
       httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: "strict"
+      secure: true,
+      sameSite: "none"
     });
 
     return res.status(201).json({
