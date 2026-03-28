@@ -24,7 +24,7 @@ app.use(limiter);
 
 
 app.use(cors({
-  origin: "true",
+  origin: "https://notes-app-auth-rbac.vercel.app/",
   credentials: true
 }));
 
